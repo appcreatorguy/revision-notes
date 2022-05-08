@@ -72,19 +72,19 @@
           + Subscription fees may be expensive
 ** 1.3.2 Wired and wireless networks, connections and protocols
     Networks need *protocols* to communicate.
-    A network *standard* is a set of agreed requirements for both hardware and software.
-    They allow manufacturers to create compatible products.
-    A network *protocol* is a set of /rules/ for how devices communicate and how *data is transmitted* across a  network.
+    + A network *standard* is a set of agreed requirements for both hardware and software.
+    + They allow manufacturers to create compatible products.
+    + A network *protocol* is a set of /rules/ for how devices communicate and how *data is transmitted* across a  network.
     Communication on the same network use *MAC addresses*
-        Every device needs a *unique identifier* so it can be found on a network.
-        *MAC addresses* are assigned to every device by a manufacturer. They are unique to the device and *cannot be changed*.
-        They are a string of 48 binary numbers, and are commonly converted to hexadecimal, (i.e: ~10011000 10000001 11001101 11110010 00101111~ can also be displayed as ~98-81-55-CD-F2-2F~).
-        MAC addresses are mainly used by the *Ethernet protocol* on *LANs*. LAN switches read the MAC addresses and use them to direct data to the right local device.
+    + Every device needs a *unique identifier* so it can be found on a network.
+    + *MAC addresses* are assigned to every device by a manufacturer. They are unique to the device and *cannot be changed*.
+    + They are a string of 48 binary numbers, and are commonly converted to hexadecimal, (i.e: ~10011000 10000001 11001101 11110010 00101111~ can also be displayed as ~98-81-55-CD-F2-2F~).
+    + MAC addresses are mainly used by the *Ethernet protocol* on *LANs*. LAN switches read the MAC addresses and use them to direct data to the right local device.
     Communication between different networks use *IP addresses*
-        *IP addresses* are used when sending data between *TCP/IP* networks, such as over the internet.
-        They are assigned manually, or automatically when a device first connects to a network.
-        There are two standards, *IPv4* and *IPv6*. IPv4 uses *32 bits*, and IPv6 uses *128 bits*.
-        An example of an IPv4 address would be: ~00100101.10011001.00111110.10001000~ which would be translated to *denary* as ~37.153.62.136~.
+    + *IP addresses* are used when sending data between *TCP/IP* networks, such as over the internet.
+    + They are assigned manually, or automatically when a device first connects to a network.
+    + There are two standards, *IPv4* and *IPv6*. IPv4 uses *32 bits*, and IPv6 uses *128 bits*.
+    + An example of an IPv4 address would be: ~00100101.10011001.00111110.10001000~ which would be translated to *denary* as ~37.153.62.136~.
     *TCP/IP* is the most important protocol.
         It dictates how data is sent between networks. It is made up of two protocols:
             + *Transmission Control Protocol* (TCP)
