@@ -1,0 +1,109 @@
+#+TITLE: 1.3 - Computer Networks, connections and protocols
+#+AUTHOR: Manas Mengle
+#+OPTIONS: toc:nil
+
+* 1.3 - Computer Networks, connections and protocols
+** 1.3.1 - Networks and Topologies
+	There are two types of network:
+		+ *LAN* (Local Area Network)
+			- A LAN covers a /small geographical area/ located on a single site.
+			- LANs are either wired (e.g. with *Ethernet* cables) or wireless (e.g. using *WIFI*)
+		+ *WAN* (Wide Area Network)
+			- A WAN is a network that connects separate LANs over a /large geographical area/.
+			- This ensures that computers in one location can communicate with computers and users in other locations.
+			- The Internet is an example of a large WAN.
+	Certain hardware is needed to connect a computer to a Local Area Network
+		+ Wireless Access Points (*WAP*)
+			- Allow wireless devices to connect to a network
+			- Convert data they receive through cables into wireless signals.
+			- Commonly used in public buildings and homes to provide *WIFI* networks.
+		+ Routers
+			- Routers connect different networks together.
+			- They read the address information of the packet they are transferring and forward the messages to the correct network.
+			- They are commonly used to allow many computers to share an Internet connection.
+			- The most common use of this is to connect a home network to a larger one: The Internet.
+			- They can have both cabled and wireless.
+		+ Switches
+			- Network switches read the messages that pass through them.
+			- They read the destination address and send them to the intended computer.
+			- They do this by building a table of the device-unique *MAC* addresses on the network.
+		+ Network Interface Card/Controller (*NIC*)
+		+ Transmission Media
+			2 main ways:
+				- Wired (Cable)
+					- Copper cable carries data as electric currents.
+					- Fibre optic carries data as pulses of light.
+					- Data is transmitted according to the Ethernet protocols.
+					- High bandwidth
+					- Expensive
+					- Good security
+					- Low interference
+				- Microwave/Radio
+					- Electromagnetic radiation waves.
+					- Lower bandwidth
+					- Cheaper
+					- Low security
+					- Higher interference
+	Factors that can affect a network's performance
+		+ No. of devices
+		+ Packet collisions
+		+ Bandwidth
+		+ Network traffic volume
+		+ Network latency
+		+ No. of transmission errors
+	The Internet is based on many technologies:
+		+ *DNS* (Domain Name Server)
+			*Domain Names* are used to identify IP addresses. They are more convenient to use than remembering IP addresses.
+			Computers match domain names to IP addresses by sending requests to a Domain Name Server, which then returns the correct IP address for a certain domain.
+		+ The Cloud
+			The cloud is where large companies will offer services such as storage or computing power.
+			*No* local hardware is required, as all of it is done over the Internet.
+			Benefits include being able to access data from anywhere with a reliable Internet connection, and lower cost for hardware. However, cloud services are usually based on a subscription service model, which can introduce higher long term costs.
+           Pros:
+          + Users can access files from any internet connected device
+          + Storage is easily upgraded
+          + Less expensive hardware required.
+          + /Security/ and backups are handled by the host
+          + Automatic updates
+          Cons:
+          + Need an internet connections
+          + Dependent on a third party for security and backups
+          + Data stored may be vulnerable to hackers.
+          + Subscription fees may be expensive
+** 1.3.2 Wired and wireless networks, connections and protocols
+    Networks need *protocols* to communicate.
+    A network *standard* is a set of agreed requirements for both hardware and software.
+    They allow manufacturers to create compatible products.
+    A network *protocol* is a set of /rules/ for how devices communicate and how *data is transmitted* across a  network.
+    Communication on the same network use *MAC addresses*
+        Every device needs a *unique identifier* so it can be found on a network.
+        *MAC addresses* are assigned to every device by a manufacturer. They are unique to the device and *cannot be changed*.
+        They are a string of 48 binary numbers, and are commonly converted to hexadecimal, (i.e: ~10011000 10000001 11001101 11110010 00101111~ can also be displayed as ~98-81-55-CD-F2-2F~).
+        MAC addresses are mainly used by the *Ethernet protocol* on *LANs*. LAN switches read the MAC addresses and use them to direct data to the right local device.
+    Communication between different networks use *IP addresses*
+        *IP addresses* are used when sending data between *TCP/IP* networks, such as over the internet.
+        They are assigned manually, or automatically when a device first connects to a network.
+        There are two standards, *IPv4* and *IPv6*. IPv4 uses *32 bits*, and IPv6 uses *128 bits*.
+        An example of an IPv4 address would be: ~00100101.10011001.00111110.10001000~ which would be translated to *denary* as ~37.153.62.136~.
+    *TCP/IP* is the most important protocol.
+        It dictates how data is sent between networks. It is made up of two protocols:
+            + *Transmission Control Protocol* (TCP)
+              - which sets the rules for how devices connect to networks, and is responsible for *splitting data into packets* and *reassembling the packets back* into the original data.
+            + *Internet Protocol* (IP)
+              - which is responsible for *directing packets to their destination* across a network.
+        Several other protocols build upon TCP/IP for specific tasks.
+        | Protocol | Stands for...                    | What is it used for?                                                        |
+        |----------+----------------------------------+-----------------------------------------------------------------------------|
+        | *HTTP*     | Hyper Text Transfer Protocol     | Used by *web browsers* to view websites                                       |
+        | *HTTPS*    | HTTP secure                      | A more secure version of HTTP that encrypts information send and received   |
+        | FTP      | File transfer protocol           | Used to access, edit and move files over the internet.                      |
+        | POP3     | Post office protocol 3           | Used to *Retrieve* emails from a server.                                      |
+        | IMAP     | Internet Message Access Protocol | Used to *Retrieve* emails from a server. Used by most web based email clients |
+        | SMTP     | Simple mail Transfer Protocol    | Used to *Send* and transfer emails between servers.                           |
+    Network Protocols are divided into *Layers*
+        + A *Layer* is a group of protocols which have *similar functions.*
+        + They are *self-contained*, as protocols in each layer *are unaffected by changes in other layers*.
+        + Data is worked on using a *top-down stack* of layers.
+        + Advantages:
+          - Breaks network into manageable pieces, which helps fix errors.
+          - Layers can be changed or *upgraded without other layers being affected*
