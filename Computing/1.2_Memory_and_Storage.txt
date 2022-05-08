@@ -1,0 +1,14 @@
+1.2 - Memory and Storage
+    # 1.2.1 - Primary Storage (Memory)
+    # 1.2.2 - Secondary Storage
+    # 1.2.3 - Units
+    # 1.2.4 - Data Storage
+        ## Numbers
+        ## Characters
+        ## Images
+        ## Sound
+    # 1.2.5 - Compression
+        ## Need
+        ## Types
+            ### Lossy
+            ### Lossless

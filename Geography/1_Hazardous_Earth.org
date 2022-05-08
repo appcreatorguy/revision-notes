@@ -1,0 +1,3 @@
+#+TITLE: 1 - Hazardous Earth
+#+AUTHOR: Manas Mengle
+#+OPTIONS: toc:nil

@@ -1,0 +1,59 @@
+#+TITLE: 1.2 Memory And Storage
+#+AUTHOR: Manas Mengle
+#+OPTIONS: toc:nil
+
+* 1.2 - Memory and Storage
+** 1.2.1 - Primary Storage (Memory)
+    Refers to the /memory/ areas that a /CPU/ can access very quickly.
+    It has the *fastest* /read/write/ speed and is mostly *volatile*
+** 1.2.2 - Secondary Storage
+    *Non-volatile*. Where all data (operating systems, applications, user files) are stored when not in use.
+    Includes:
+        + Magnetic hard disk drives
+        + Solid state drives
+        + CDs and SD cards
+    Much *slower* /read/write/ speeds compared to [[*1.2.1 - Primary Storage (Memory)][Primary Storage.]]
+** 1.2.3 - Units
+    Computers use 1s and 0s to represent the flow of electricity, with a *1* is used to show that electricity is flowing, and a *0* shows that it is *not* flowing.
+        This is called *binary* code.
+        Each 1 or 0 in a binary code is called a *bit* (binary digit). For example, ~1010~ is 4 bits.
+    | Name          | Size                           |
+    |---------------+--------------------------------|
+    | Bit(b)        | A single binary digit (1 or 0) |
+    | Nibble        | 4 bits                         |
+    | Byte (B)      | 8 bits                         |
+    | Kilobyte (kB) | 1000 bytes                     |
+    | Megabyte (MB) | 1000 kilobytes                 |
+    | Gigabyte (GB) | 1000 megabytes                 |
+    | Terabyte (TB) | 1000 gigabytes                 |
+    | Petabyte (PB) | 1000 terabytes                 |
+    /Using powers of 2 (i.e: 1024 bytes in kB, etc.) would also be acceptable/
+** 1.2.4 - Data Storage
+*** Numbers
+You can convert binary numbers to denary using tables.
+For example, to convert the 8-bit number ~0011 0101~ to a denary number:
+    | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+    |-----+----+----+----+---+---+---+---|
+    |   0 |  0 |  1 |  1 | 0 | 1 | 0 | 1 |
+    And add up all the numbers.
+    32+16+4+1=53. So ~0011 0101~ is 53 in denary.
+*** Characters
+    Binary can be used to represent characters.
+    However, *alphanumeric* characters must be converted into binary before they can be read by a computer.
+    This is done using *character sets*
+        *Character Sets* are collections of characters that a computer recognises from their /binary representation/.
+    They also contain /special characters/ which do certain commands.
+    When you press a button on your keyboard, it sends a binary signal to the computer telling it which key was pressed. This code is then referenced with a character set to translate the binary code into a certain character.
+    There are *2* main character sets.
+        + *ASCII*, or *A*​merican *S*​tandard *I*​nterchange *F*​ormat, which uses /7 bits/ to give each character
+          - This means it can represent a total of *128* different characters, including all the English alphabet, numbers, symbols and commands.
+          - An extra 0 is added to the beginning of each ASCII character to make it fit into /1 byte/, or 2 hexadecimal characters.
+        + *Unicode*, which aims to cover every possible character or symbol, and uses /16 bits/ to give each character
+          - It aims to cover all major languages, even ones with a completely different language.
+          - Its first *128* codes are the same as ASCII.
+*** Sound
+** 1.2.5 - Compression
+*** Need
+*** Types
+**** Lossy
+**** Lossless

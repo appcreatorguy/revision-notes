@@ -1,0 +1,123 @@
+
+
+# 1.2 - Memory and Storage
+
+
+<a id="org329626d"></a>
+
+## 1.2.1 - Primary Storage (Memory)
+
+Refers to the *memory* areas that a *CPU* can access very quickly.
+It has the **fastest** *read/write* speed and is mostly **volatile**
+
+
+## 1.2.2 - Secondary Storage
+
+**Non-volatile**. Where all data (operating systems, applications, user files) are stored when not in use.
+Includes:
+
+-   Magnetic hard disk drives
+-   Solid state drives
+-   CDs and SD cards
+
+Much **slower** *read/write* speeds compared to [Primary Storage.](#org329626d)
+
+
+## 1.2.3 - Units
+
+Computers use 1s and 0s to represent the flow of electricity, with a **1** is used to show that electricity is flowing, and a **0** shows that it is **not** flowing.
+    This is called **binary** code.
+    Each 1 or 0 in a binary code is called a **bit** (binary digit). For example, `1010` is 4 bits.
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Name</th>
+<th scope="col" class="org-left">Size</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">Bit(b)</td>
+<td class="org-left">A single binary digit (1 or 0)</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Nibble</td>
+<td class="org-left">4 bits</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Byte (B)</td>
+<td class="org-left">8 bits</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Kilobyte (kB)</td>
+<td class="org-left">1000 bytes</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Megabyte (MB)</td>
+<td class="org-left">1000 kilobytes</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Gigabyte (GB)</td>
+<td class="org-left">1000 megabytes</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Terabyte (TB)</td>
+<td class="org-left">1000 gigabytes</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Petabyte (PB)</td>
+<td class="org-left">1000 terabytes</td>
+</tr>
+</tbody>
+</table>
+
+*Using powers of 2 (i.e: 1024 bytes in kB, etc.) would also be acceptable*
+
+
+## 1.2.4 - Data Storage
+
+
+### Numbers
+
+
+### Characters
+
+
+### Sound
+
+
+## 1.2.5 - compression
+
+
+### Need
+
+
+### Types
+
+1.  Lossy
+
+2.  Lossless
+
