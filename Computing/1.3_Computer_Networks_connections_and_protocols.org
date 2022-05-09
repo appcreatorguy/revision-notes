@@ -85,6 +85,7 @@
     + They are assigned manually, or automatically when a device first connects to a network.
     + There are two standards, *IPv4* and *IPv6*. IPv4 uses *32 bits*, and IPv6 uses *128 bits*.
     + An example of an IPv4 address would be: ~00100101.10011001.00111110.10001000~ which would be translated to *denary* as ~37.153.62.136~.
+    + Most local IPv4 addresses begin ~11000000.10101000.00000001.00000001~ which translates to ~192.168.1.1~
     *TCP/IP* is the most important protocol.
         It dictates how data is sent between networks. It is made up of two protocols:
             + *Transmission Control Protocol* (TCP)
