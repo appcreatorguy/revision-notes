@@ -7,7 +7,7 @@ For example:
 + *Passive Attacks*, where someone monitors data that travels across a network and intercepts data packets on the chance that it may contain sensitive information.
   - They may use /network-monitoring/ hardware and software such as /packet sniffers/.
   - This makes them /hard to detect/ as the hacker is quietly listening. The best defence is *data encryption*
-+ *Active Attacks*, where someone attacks a network with [[Malware]] or other planned attacks.
++ *Active Attacks*, where someone attacks a network with [[Malware][Malware]] or other planned attacks.
   - These are more easily detected, and the main defence is a *firewall*
 + *<<Insider Attacks>>*, where someone within an organisation exploits their access to steal information.
 + *Brute Force Attacks*, where an attacker /actively/ tries to gain information by cracking security through /trial and error/.
