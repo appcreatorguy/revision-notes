@@ -92,11 +92,11 @@
             + *Internet Protocol* (IP)
               - which is responsible for *directing packets to their destination* across a network.
         Several other protocols build upon TCP/IP for specific tasks.
-        | Protocol | Stands for...                    | What is it used for?                                                        |
-        |----------+----------------------------------+-----------------------------------------------------------------------------|
-        | *HTTP*     | Hyper Text Transfer Protocol     | Used by *web browsers* to view websites                                       |
-        | *HTTPS*    | HTTP secure                      | A more secure version of HTTP that encrypts information send and received   |
-        | FTP      | File transfer protocol           | Used to access, edit and move files over the internet.                      |
+        | Protocol | Stands for...                    | What is it used for?                                                          |
+        |----------+----------------------------------+-------------------------------------------------------------------------------|
+        | *HTTP*   | Hyper Text Transfer Protocol     | Used by *web browsers* to view websites                                       |
+        | *HTTPS*  | HTTP secure                      | A more secure version of HTTP that encrypts information send and received     |
+        | FTP      | File transfer protocol           | Used to access, edit and move files over the internet.                        |
         | POP3     | Post office protocol 3           | Used to *Retrieve* emails from a server.                                      |
         | IMAP     | Internet Message Access Protocol | Used to *Retrieve* emails from a server. Used by most web based email clients |
         | SMTP     | Simple mail Transfer Protocol    | Used to *Send* and transfer emails between servers.                           |
