@@ -9,7 +9,7 @@ For example:
   - This makes them /hard to detect/ as the hacker is quietly listening. The best defence is *data encryption*
 + *Active Attacks*, where someone attacks a network with [[Malware][Malware]] or other planned attacks.
   - These are more easily detected, and the main defence is a *firewall*
-+ <<Insider Attacks>>*Insider Attacks*, where someone within an organisation exploits their access to steal information.
++ <<Insider Attacks>> *Insider Attacks*, where someone within an organisation exploits their access to steal information.
 + *Brute Force Attacks*, where an attacker /actively/ tries to gain information by cracking security through /trial and error/.
   - They use automated software to produce hundreds of likely combinations on the chance that one is correct.
   - The best defence for these attacks are simple measures such as *locking accounts after too many failed attempts* and *stronger passwords*
@@ -37,7 +37,7 @@ Common prevention methods include:
 + *Penetration Testing*, where *specialists simulate attacks* on a network to *identify weaknesses* before they are exploited.
 + *Physical Security*, where the *physical elements of a network are protected* from damage, both intentional and unintentional. This can be done through *Locks, pass codes and surveillance*
 + *Passwords*, to prevent *unauthorised users* gaining access.
-+ *User access levels*, to *limit the number of people with access* to sensitive information, preventing [[Insider Attacks]] on the network.
++ *User access levels*, to *limit the number of people with access* to sensitive information, preventing [[Insider Attacks][Insider Attacks]] on the network.
 + *Anti-malware software*, to *find and stop malware* from damaging a network and its devices.
 + *Firewalls*, to *block unauthorised devices* from gaining access.
 + *Encryption*, to *protect data* travelling *over a network* securely.
